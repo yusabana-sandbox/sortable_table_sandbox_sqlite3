@@ -18,6 +18,10 @@ gem 'ranked-model'
 gem 'jquery-ui-rails'
 gem 'jquery-turbolinks'
 
+group :production do
+  gem 'unicorn'
+end
+
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_21]
@@ -32,16 +36,16 @@ group :development do
   gem 'rb-inotify', :require=>false
 end
 group :development, :test do
+  gem 'awesome_print'
+  gem 'spring-commands-rspec'
   gem 'factory_girl_rails'
   gem 'rspec-rails'
-end
-group :production do
-  gem 'unicorn'
 end
 group :test do
   gem 'capybara'
   gem 'database_cleaner'
   gem 'faker'
   gem 'launchy'
-  gem 'selenium-webdriver'
+  # gem 'selenium-webdriver'
+  gem 'poltergeist'
 end

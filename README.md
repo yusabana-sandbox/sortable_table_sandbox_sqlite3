@@ -10,6 +10,7 @@ Refarences
 ----------------
 - [Rails 4で作るドラッグアンドドロップで表示順を変更できるサンプルアプリ(スクリーンキャスト付き) - Qiita](http://qiita.com/jnchito/items/391fb16d3f69fda9bdae)
 - [初心者大歓迎！RSpec 3でドラッグアンドドロップ機能をテストする方法(スクリーンキャスト付き) - Qiita](http://qiita.com/jnchito/items/bdd80c1085fa082e7d7a)
+- [Rails - RSpecでModelのテストをするときは、リレーションをchange from/toとしてテストしないように注意する - Qiita](http://qiita.com/jnchito/items/453e4bdb8bd2b9401a1a)
 
 
 ### gems
