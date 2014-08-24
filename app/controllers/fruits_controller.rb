@@ -61,7 +61,7 @@ class FruitsController < ApplicationController
     end
   end
 
-  def sort
+  def api_sort
     fruit = Fruit.find(params[:fruit_id])
     fruit.update(fruit_params)
     render nothing: true
