@@ -46,6 +46,9 @@ group :test do
   gem 'database_cleaner'
   gem 'faker'
   gem 'launchy'
-  # gem 'selenium-webdriver'
+
+  # firefoxを使う場合selenium-webdriver
+  # ヘッドレスブラウザの phantomjs を使う場合poltergeistを利用する
+  gem 'selenium-webdriver'
   gem 'poltergeist'
 end
