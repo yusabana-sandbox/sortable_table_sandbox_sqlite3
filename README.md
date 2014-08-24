@@ -12,6 +12,8 @@ Refarences
 - [初心者大歓迎！RSpec 3でドラッグアンドドロップ機能をテストする方法(スクリーンキャスト付き) - Qiita](http://qiita.com/jnchito/items/bdd80c1085fa082e7d7a)
 - [Rails - RSpecでModelのテストをするときは、リレーションをchange from/toとしてテストしないように注意する - Qiita](http://qiita.com/jnchito/items/453e4bdb8bd2b9401a1a)
 
+- [Rails4 + Capybara + PhantomJS (poltergeist) なテスト環境 - (ﾟ∀ﾟ)o彡 sasata299's blog](http://blog.livedoor.jp/sasata299/archives/51924944.html)']
+
 
 ### gems
 - ranked-model
