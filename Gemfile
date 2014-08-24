@@ -16,6 +16,7 @@ gem 'slim-rails'
 
 gem 'ranked-model'
 gem 'jquery-ui-rails'
+gem 'jquery-turbolinks'
 
 group :development do
   gem 'better_errors'
