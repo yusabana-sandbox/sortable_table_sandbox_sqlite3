@@ -7,6 +7,11 @@ RSpec.describe Fruit, :type => :model do
     let!(:banana) { create :fruit, name: 'Banana' }
     let!(:orange) { create :fruit, name: 'Orange' }
 
+    it 'returns name' do
+      fruit = build :fruit, name: 'Banana'
+      expect(fruit.name).to eq 'Banana'
+    end
+
     it 'orders by registration' do
       expect(Fruit.rank(:row_order)).to eq [apple, banana, orange]
     end
@@ -18,7 +23,6 @@ RSpec.describe Fruit, :type => :model do
         Fruit.rank(:row_order).to_a
       }.from([apple, banana, orange]).to([orange, apple, banana])
     end
-
 
   end
 

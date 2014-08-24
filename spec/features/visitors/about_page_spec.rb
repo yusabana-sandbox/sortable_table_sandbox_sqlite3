@@ -14,5 +14,4 @@ feature 'About page' do
     visit 'pages/about'
     expect(page).to have_content 'About the Website'
   end
-
 end
